@@ -6,6 +6,7 @@
 :set expandtab
 :set softtabstop=4
 :colorscheme delek
+:set statusline+=%F
 
 source $HOME/.config/nvim/plug-config/coc.vim
 

@@ -27,6 +27,8 @@ Plug 'https://github.com/tpope/vim-commentary.git'
 
 " Autocomplete and intellisense
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
+" (Installed: coc-snippets coc-emmet coc-vimlsp coc-sh coc-tsserver coc-json
+" coc-css )
 
 " Emmet for vim
 Plug 'mattn/emmet-vim'

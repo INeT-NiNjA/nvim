@@ -28,7 +28,7 @@ Plug 'https://github.com/tpope/vim-commentary.git'
 " Autocomplete and intellisense
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 " (Installed: coc-snippets coc-emmet coc-vimlsp coc-sh coc-tsserver coc-json
-" coc-css )
+" coc-css coc-pyright )
 
 " Emmet for vim
 Plug 'mattn/emmet-vim'
@@ -42,3 +42,6 @@ call plug#end()
 lua <<EOF
 require'colorizer'.setup()
 EOF
+
+
+let g:coc_snippet_next = '<tab>'
